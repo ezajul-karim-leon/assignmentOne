@@ -15,13 +15,41 @@
     letter-spacing: 0%;
     text-align: left;
     border: none;
-    padding: 14px 28px;
+    padding: 10px 25px;
     cursor: pointer;
 }
 .btn:hover{
-    background-color: white;
+    background-color:beige;
     color: rgb(0, 106, 80);
-    border: 1px solid beige;
+    border: 1px solid;
+
+}
+.subtitle{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    height: auto;
+    width: 50%;
 }
 
 
@@ -99,4 +127,80 @@ nav .navbar{
 .banner-content img{
     height: 350px;
     width: 200px;
+}
+
+/* pillars section  */
+.pillars{
+    margin: 50px 0;
+}
+.for-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.card h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px 0;
+}
+
+/* vision section  */
+
+.vision-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+}
+.vision-card .card1{
+    background: rgba(84, 144, 245, 0.2);;
+}
+.vision-card .card1 button{
+    background: rgb(84, 144, 245);
+}
+.vision-card .card2{
+    background: rgb(198, 228, 214);
+} 
+.vision-card .card2 button{
+    background: rgb(9, 161, 92);
+}
+.vision-card .card3{
+    background: rgb(247, 235, 207);
+}
+.vision-card .card3 button{
+    background: rgb(255, 194, 57);
+}
+.vision-card button:hover{
+    background-color: snow;
+    transition: .8s;
+}
+.adviser-speech{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 30px 0;
+    padding: 30px 20px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../images/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position:20px 10px ;
+    background-size: auto;
+    
+}
+.adviser-speech .name{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 15px;
 }
