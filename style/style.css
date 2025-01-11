@@ -271,3 +271,50 @@ select {
     border-radius: 15px;
 
 }
+
+
+/* donate section  */
+.donate{
+    margin-top: 50px;
+}
+.donate .title{
+    text-align: center;
+    padding: 50px 0 10px;
+}
+.donate .description{
+    text-align: center;
+    margin: 10px 100px;
+}
+.amount-card{
+    display: flex;
+    gap: 30px;
+    justify-content: center
+}
+.amount{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding: 8px 40px;
+    margin-top: 20px;
+
+}
+.amount:hover{
+    background-color:red;
+    color: white;
+    transition: .6s;
+    border: 1px solid white;
+}
+input {
+    width: 80%;
+    margin: 40px 80px;
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(198, 228, 214);
+    border-radius: 5px;
+    text-align: center;
+
+}
+.donate .button{
+    text-align: center;
+}
