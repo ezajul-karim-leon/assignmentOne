@@ -318,3 +318,61 @@ input {
 .donate .button{
     text-align: center;
 }
+
+
+/* footer part  */
+.newsletter{
+    margin: 40px 0;
+    padding: 40px;
+    border-radius: 18px;
+    background: rgb(198, 228, 214);
+    
+}
+.newsletter .description, .subtitle{
+    text-align: center;
+    margin: 0 220px ;
+}
+.input{
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    text-align: start;
+    padding: 0 90px;
+}
+.input .input1{
+    margin-right: 0;
+    height: 10px;
+    border-end-end-radius: 0;
+    border-top-right-radius: 0;
+}
+.input input[type=button]{
+    margin-left: 0;
+    width: 120px;
+    height: 50px;
+    border-start-start-radius: 0px;
+    border-bottom-left-radius:  0;
+}
+
+
+/* bottom section  */
+.bottom{
+    text-align: center;
+    margin: 70px;
+}
+.bottom h3{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 22px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+.blank{
+    border: .3px solid #ddd;
+    width: 700px;
+    margin: 30px auto;
+}
+.bottom img{
+    margin: 0 15px;
+}
