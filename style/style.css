@@ -162,17 +162,26 @@ nav .navbar{
 .vision-card .card1{
     background: rgba(84, 144, 245, 0.2);;
 }
+.vision-card .card1:hover{
+    background-color: white;
+}
 .vision-card .card1 button{
     background: rgb(84, 144, 245);
 }
 .vision-card .card2{
     background: rgb(198, 228, 214);
 } 
+.vision-card .card2:hover{
+    background-color: yellow;
+}
 .vision-card .card2 button{
     background: rgb(9, 161, 92);
 }
 .vision-card .card3{
     background: rgb(247, 235, 207);
+}
+.vision-card .card3:hover{
+    background-color: aquamarine;
 }
 .vision-card .card3 button{
     background: rgb(255, 194, 57);
@@ -310,6 +319,7 @@ select {
 }
 .active:hover{
     background-color: antiquewhite;
+
 }
 input {
     width: 80%;
