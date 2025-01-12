@@ -300,10 +300,16 @@ select {
 
 }
 .amount:hover{
-    background-color:red;
+    background-color: rgb(198, 228, 214);;
     color: white;
     transition: .6s;
     border: 1px solid white;
+}
+.active{
+    background-color: rgb(198, 228, 214);;
+}
+.active:hover{
+    background-color: antiquewhite;
 }
 input {
     width: 80%;
@@ -328,7 +334,7 @@ input {
     background: rgb(198, 228, 214);
     
 }
-.newsletter .description, .subtitle{
+.newsletter .description, .newsletter .subtitle{
     text-align: center;
     margin: 0 220px ;
 }
@@ -361,12 +367,12 @@ input {
 }
 .bottom h3{
     color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 22px;
-font-weight: 700;
-line-height: 38px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Fira Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 .blank{
     border: .3px solid #ddd;
